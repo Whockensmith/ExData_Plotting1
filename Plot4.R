@@ -12,7 +12,7 @@ data$Global_reactive_power <- as.numeric(as.character(data$Global_reactive_power
 data$Sub_metering_1 <- as.numeric(as.character(data$Sub_metering_1))
 data$Sub_metering_2 <- as.numeric(as.character(data$Sub_metering_2))
 data$Sub_metering_3 <- as.numeric(as.character(data$Sub_metering_3))
-## Draw plot
+## Draws plot
 png("Plot4.png",width= 480, height = 480,  units= "px")
 par(mfrow = c(2,2))
 plot(x = data$Time, y = data$Global_active_power, type = "l", xlab="",ylab="Global Active Power (kilowatts)")
