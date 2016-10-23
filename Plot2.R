@@ -1,4 +1,4 @@
-## Read data set into memory
+s## Read data set into memory
 dataset <- read.csv("household_power_consumption.txt",sep=";",header=TRUE)
 ## Trim data down to 1 January 2007 to 2 February 2007
 data <- subset(dataset ,dataset$Date %in% c("1/2/2007","2/2/2007"))
