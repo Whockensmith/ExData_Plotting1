@@ -12,7 +12,7 @@ data$Global_reactive_power <- as.numeric(as.character(data$Global_reactive_power
 data$Sub_metering_1 <- as.numeric(as.character(data$Sub_metering_1))
 data$Sub_metering_2 <- as.numeric(as.character(data$Sub_metering_2))
 data$Sub_metering_3 <- as.numeric(as.character(data$Sub_metering_3))
-## Draw histogram
+## Draws histogram
 png("Plot1.png",width= 480, height = 480,  units= "px")
 hist(data$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()
